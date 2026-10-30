@@ -2,6 +2,7 @@
 
 body#corpo {
     font-family: Arial, Helvetica, sans-serif; 
+    background: rgb(0, 0, 0);
 }
 /*menu geral*/
 nav#menu h3 {
@@ -16,21 +17,44 @@ nav#menu ol {
 }
 nav#menu li {
 	display: inline-block;
-	background-color: lightgray;
+	background-color: rgb(167, 160, 160);
 	padding: 10px;
 	margin: 3px;
 	border-radius: 10px;
 	transition: background-color 2s, transform 1s;
 }
 nav#menu li:hover {
-	background-color: darkgray;
+	background-color: rgb(131, 128, 128);
 	
 }
 nav#menu a {
-	color: black;
+	color: rgb(255, 247, 247);
 	text-decoration: none;
 }
 nav#menu a:hover {
 	color: white;
 	text-decoration: underline;
 }
+/*ff formataçoes-souto*/
+
+header#cabecalho img.foto1_ff {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+}
+h1.ff-l {
+   color: rgb(255, 255, 255);
+text-align: center;
+}
+p.ff-p1{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+
+} 
+h2.ff-mp{
+   color: rgb(255, 255, 255);
+text-align: center;
+}
+
+

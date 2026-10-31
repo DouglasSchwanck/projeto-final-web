@@ -56,5 +56,36 @@ h2.ff-mp{
    color: rgb(255, 255, 255);
 text-align: center;
 }
+/*formatação personagens ff*/
+h2.ff-pers{
+   color: rgb(255, 255, 255);
+text-align: center;
+}
+p.ff-p2{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+}
+table.tabela-pff{
+    border: 90px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17pt;
+}
+table.tabela-pff {
+	font-size: 17pt;
+	text-align: justify;
+	border: slateblue 5px;
+	border-radius: 1px;
+width: 100%;
 
+}
+table.tabela-pff td{
+	border: solid 4px rgb(228, 228, 231);
+	border-radius: 5px;
+    font-size: 17pt;
+	/*background-color:slateblue ;*/
+}
 

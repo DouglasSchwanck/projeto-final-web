@@ -37,26 +37,63 @@ nav#menu a:hover {
 }
 /*ff formataçoes-souto*/
 
+
 header#cabecalho img.foto1_ff {
 	position: absolute;
 	top: 5px;
 	left: 3px;
 }
-h1.ff-l {
+h1.ff-l1 {
+   
    color: rgb(255, 255, 255);
 text-align: center;
+font-size: 17pt;
+background-color: rgb(83, 69, 214) ;
+
+ width: 400px;
+ margin: auto;
 }
 p.ff-p1{
 color: rgb(255, 255, 255);
 text-align: center;
 font-size: 17pt;
-
+ flex: 1;
+    text-align: center;
 } 
 h2.ff-mp{
    color: rgb(255, 255, 255);
 text-align: center;
+
+   color: rgb(255, 255, 255);
+text-align: center;
+;
+font-size: 17pt;
+background-color: rgb(182, 74, 70) ;
+
+ width: 400px;
+ margin: auto;
+}
+
+
+img.ff-img2 {
+    width: 27%;
+    height: auto;
+}
+div.ff-mapa1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 /*formatação personagens ff*/
+h1.ff-l {
+   color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: rgb(214, 69, 69) ;
+ 
+ margin: auto;
+}
 h2.ff-pers{
    color: rgb(255, 255, 255);
 text-align: center;
@@ -88,4 +125,18 @@ table.tabela-pff td{
     font-size: 17pt;
 	/*background-color:slateblue ;*/
 }
+/*formatação veiculos ff*/
+p.ff-p3{
+color: rgb(255, 255, 255);
+text-align: center;	
+font-size: 17pt;}
 
+p.ff-dtl{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: green ;
+border-radius: 150px;
+ width: 400px;
+ margin: auto;
+}

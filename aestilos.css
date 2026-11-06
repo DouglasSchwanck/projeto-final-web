@@ -146,3 +146,78 @@ background-color: rgb(214, 69, 69) ;
 width: 19%;
 margin: auto;
 }
+/*formatação pokemon black-souto*/
+h1.pblack-titulo {
+   
+   color: rgb(255, 255, 255);
+text-align: center;
+background-color: rgb(132, 69, 214) ;
+ width: 99%;
+ margin: auto;
+ 
+ 
+
+}
+h2.pkb-int{
+	color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: rgb(56, 36, 82) ;
+   
+}
+ul.pkbdex li{
+	transform: all 1.5s ease ;
+	width: 300px;
+	height: 300px;
+
+	font-family: Arial;
+	text-align: center;
+	background: var(--img) center/ cover no-repeat;
+	position: relative;
+}
+ul.pkbdex  li:hover{
+	
+background-image: var(--img-hover),var(--img);
+transition: scale(1,3) ;
+
+z-index: 10;/*coloca na frente comforme o valor maior*/
+
+}
+
+ul.pkbdex {
+gap: 3px;
+list-style:none;
+display: flex;
+flex-wrap: wrap
+}
+details.dexp{
+	border: solid 4px slateblue;
+	background-color: slateblue ;
+	border-radius: 4px;
+	margin: 3px;
+	width: 300px;
+}
+p.dexn{
+	color:rgb(255, 254, 255)
+}
+ul.pkbdex li.dexn{
+	opacity: 3;
+	color: white;
+	
+	text-shadow: 1px 1px 1px black;
+	background-color: rgba(250, 250, 250, 0);
+	font-size:12pt ;
+	padding: 10px;
+	border-radius: 35px;
+	transition: opacity 01.3s;
+
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		height: 100%;
+		box-sizing: border-box;
+}
+ul.pkbdex li.dexn :hover {
+opacity: 1;
+color: green;
+}

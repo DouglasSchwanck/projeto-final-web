@@ -220,3 +220,8 @@ ul.pkbdex li.dexn :hover {
 opacity: 1;
 color: green;
 }
+span.dex-detalhe{
+	color: rgb(255, 255, 255);
+	border: solid 2px rgb(0, 0, 0);
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);}

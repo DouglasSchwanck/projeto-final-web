@@ -153,9 +153,8 @@ h1.pblack-titulo {
 text-align: center;
 background-color: rgb(132, 69, 214) ;
  width: 99%;
- margin: auto;
- 
- 
+ height: 67px;
+ font-size: 45pt;
 
 }
 h2.pkb-int{
@@ -163,7 +162,7 @@ h2.pkb-int{
 text-align: center;
 font-size: 17pt;
 background-color: rgb(56, 36, 82) ;
-   
+height: 30px;
 }
 ul.pkbdex li{
 	transform: all 1.5s ease ;

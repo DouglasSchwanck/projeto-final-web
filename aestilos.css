@@ -2,4 +2,231 @@
 
 body#corpo {
     font-family: Arial, Helvetica, sans-serif; 
+<<<<<<< HEAD
 }
+=======
+    background: rgb(39, 39, 39);
+}
+/*menu geral*/
+nav#menu h3 {
+	display: none;
+}
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: rgb(167, 160, 160);
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 2s, transform 1s;
+}
+nav#menu li:hover {
+	background-color: rgb(131, 128, 128);
+	
+}
+nav#menu a {
+	color: rgb(255, 247, 247);
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+header#cabecalho {
+	background-color: darkblue;
+}
+/*ff formataçoes-souto*/
+
+
+header#cabecalho img.foto1_ff {
+	width: 30%;
+}
+
+h1.ff-l1 {
+   
+   color: rgb(255, 255, 255);
+text-align: center;
+
+background-color: rgb(83, 69, 214) ;
+
+ width: 100%;
+ margin: auto;
+}
+p.ff-p1{
+color: rgb(255, 255, 255);
+text-align: justify;
+font-size: 17pt;
+ flex: 1;
+   
+} 
+h2.ff-mp{
+   color: rgb(255, 255, 255);
+text-align: center;
+
+font-size: 17pt;
+background-color: rgb(182, 74, 70) ;
+
+ width: 450px;
+ margin-right:100px ;
+}
+
+
+
+div.ff-mapa1 {
+	display: flex;
+	text-align: center;
+	
+	margin-bottom: 20px;
+}
+/*formatação personagens ff*/
+
+h1.ff-l {
+   color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: rgb(214, 69, 69) ;
+width: 19%;
+ /*margin: 0px;*/
+}
+h2.ff-pers{
+   color: rgb(255, 255, 255);
+text-align: center;
+}
+p.ff-p2{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+}
+table.tabela-pff{
+    border: 90px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17pt;
+}
+table.tabela-pff {
+	font-size: 17pt;
+	text-align: justify;
+	border: slateblue 5px;
+	border-radius: 1px;
+width: 100%;
+
+}
+table.tabela-pff td{
+	border: solid 4px rgb(228, 228, 231);
+	border-radius: 5px;
+    font-size: 17pt;
+	/*background-color:slateblue ;*/
+}
+/*formatação veiculos ff*/
+p.ff-p3{
+color: rgb(255, 255, 255);
+text-align: center;	
+font-size: 17pt;
+}
+
+p.ff-dtl{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: green ;
+border-radius: 150px;
+ width: 400px;
+ margin: auto;
+}
+/*ff-modos*/
+p.ff-mod{
+  color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: rgb(214, 69, 69) ;
+width: 19%;
+margin: auto;
+}
+/*formatação pokemon black-souto*/
+h1.pblack-titulo {
+   
+   color: rgb(255, 255, 255);
+text-align: center;
+background-color: rgb(132, 69, 214) ;
+ width: 99%;
+ height: 67px;
+ font-size: 45pt;
+
+}
+h2.pkb-int{
+	color: rgb(255, 255, 255);
+text-align: center;
+font-size: 17pt;
+background-color: rgb(56, 36, 82) ;
+height: 30px;
+}
+ul.pkbdex li{
+	transform: all 1.5s ease ;
+	width: 300px;
+	height: 300px;
+
+	font-family: Arial;
+	text-align: center;
+	background: var(--img) center/ cover no-repeat;
+	position: relative;
+}
+ul.pkbdex  li:hover{
+	
+background-image: var(--img-hover),var(--img);
+transition: scale(1,3) ;
+
+z-index: 10;/*coloca na frente comforme o valor maior*/
+
+}
+
+ul.pkbdex {
+gap: 3px;
+list-style:none;
+display: flex;
+flex-wrap: wrap
+}
+details.dexp{
+	border: solid 4px slateblue;
+	background-color: slateblue ;
+	border-radius: 4px;
+	margin: 3px;
+	width: 300px;
+}
+p.dexn{
+	color:rgb(255, 254, 255)
+}
+ul.pkbdex li.dexn{
+	opacity: 3;
+	color: white;
+	
+	text-shadow: 1px 1px 1px black;
+	background-color: rgba(250, 250, 250, 0);
+	font-size:12pt ;
+	padding: 10px;
+	border-radius: 35px;
+	transition: opacity 01.3s;
+
+		display: flex;
+		align-items: end;
+		justify-content: center;
+		height: 100%;
+		box-sizing: border-box;
+}
+ul.pkbdex li.dexn :hover {
+opacity: 1;
+color: green;
+}
+span.dex-detalhe{
+	color: rgb(255, 255, 255);
+	border: solid 2px rgb(0, 0, 0);
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);}
+>>>>>>> master

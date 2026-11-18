@@ -4,6 +4,37 @@ body#corpo {
     font-family: Arial, Helvetica, sans-serif; 
     background: rgb(80, 79, 79);
 }
+/*formatações gerais*/
+h1 {
+	color: azure;
+	font-size: 30pt;
+}
+p {
+	color: azure;
+	font-size: 18pt;
+}
+/*rodapé*/
+footer#rodape{
+	background-color: rgb(36, 36, 92);
+	color: azure;
+}
+footer#rodape div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+	padding-bottom: 25px;
+	border: solid azure 1px;
+	padding: 10px;
+}
+footer#rodape p{
+	text-align: center;
+	display: inline;
+	font-size: 15pt;
+}
+footer#rodape h1{
+	font-size: 35px;
+}
 /*menu geral*/
 header#cabecalho h1.tituloheader {
 	margin: 0pt	;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body#corpo {
-    font-family: Arial, Helvetica, sans-serif; 
+	font-family: "Shantell Sans", cursive;
     background: rgb(80, 79, 79);
 }
 /*formatações gerais*/
@@ -35,11 +35,14 @@ footer#rodape p{
 footer#rodape h1{
 	font-size: 35px;
 }
+footer#rodape a{
+	text-decoration: none;
+	color: azure;
+}
 /*menu geral*/
 header#cabecalho h1.tituloheader {
 	margin: 0pt	;
 	font-size: 50pt;
-	font-family: "Shantell Sans", cursive;
 	color: aliceblue;
 }
 nav#menu ol {
@@ -64,7 +67,6 @@ nav#menu li:hover {
 nav#menu a {
 	color: rgb(255, 247, 247);
 	text-decoration: none;
-	font-family: "Shantell Sans", cursive;
 }
 nav#menu a:hover {
 	color: white;
@@ -80,6 +82,22 @@ header#cabecalho img {
 
 header#cabecalho img.retangulo {
 	width: 30%;
+}
+/*index*/
+nav.navegacao ol {
+	list-style: none;
+}
+nav.navegacao li{
+	display: flex;
+}
+nav.navegacao img{
+	width: 30%;
+}
+nav.navegacao img.pequena{
+	width: 50%;
+}
+nav.navegacao img.grande{
+	width: 25%;
 }
 /*ff formataçoes-souto*/
 

@@ -314,3 +314,6 @@ details.macacos tr td {
 details.macacos td:hover {
 	background-color: aliceblue;
 }
+details.macacos p {
+	color: black;
+}

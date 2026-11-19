@@ -9,6 +9,14 @@ h1 {
 	color: azure;
 	font-size: 30pt;
 }
+h2 {
+	color: azure;
+	font-size: 25pt;
+}
+h3 {
+	color: azure;
+	font-size: 20pt;
+}
 p {
 	color: azure;
 	font-size: 18pt;
@@ -73,7 +81,7 @@ nav#menu a:hover {
 	text-decoration: underline;
 }
 header#cabecalho {
-	background-color: darkblue;
+	background-color: rgb(64, 64, 112);
 }
 /*logos*/
 header#cabecalho img {
@@ -286,9 +294,12 @@ span.dex-detalhe{
 details.btd6{
 	background-color: antiquewhite;
 	border: solid black 2px;
+	width: 100%;
+	padding: 10px;
 }
 details.btd6 li {
 	list-style: none;
+	padding: 5px;
 }
 details.btd6 img {
 	width: 10%;

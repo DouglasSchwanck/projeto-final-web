@@ -296,6 +296,7 @@ details.btd6{
 	border: solid black 2px;
 	width: 100%;
 	padding: 10px;
+	font-size: 20pt;
 }
 details.btd6 li {
 	list-style: none;
@@ -316,4 +317,8 @@ details.macacos td:hover {
 }
 details.macacos p {
 	color: black;
+}
+details.macacos {
+	margin: 15px;
+	font-size: 15pt;
 }

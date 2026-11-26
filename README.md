@@ -10,3 +10,4 @@ O nosso site busca englobar os jogos que os dois integrantes jogam, cada um faze
 falar dos nossos interesses igualmente. Nós também buscamos fazer o site bem informativo para as pessoas se informarem nele.
 
 LINK NO VERCEL:
+https://projeto-final-web-six.vercel.app/index.html
